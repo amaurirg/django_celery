@@ -1,2 +1,3 @@
 celery -A proj worker --beat --scheduler django -l info
 celery -A proj flower
+celery -A proj flower worker -l info
